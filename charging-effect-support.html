@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="光域充电 iOS App 帮助、系统限制与问题反馈。">
+  <title>光域充电｜支持与帮助</title>
+  <style>
+    :root { color-scheme: dark; --bg:#071118; --card:#0e1d27; --text:#edfaff; --muted:#a5bdc8; --cyan:#39f4d2; --line:#1d3d48; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif; background:radial-gradient(circle at 85% 0,#123b46 0,transparent 38%),var(--bg); color:var(--text); line-height:1.75; }
+    main { width:min(760px,calc(100% - 32px)); margin:0 auto; padding:56px 0 72px; }
+    header { padding:34px; border:1px solid var(--line); border-radius:24px; background:linear-gradient(145deg,rgba(57,244,210,.12),rgba(14,29,39,.96)); }
+    h1 { margin:0 0 8px; font-size:32px; } h2 { margin:0 0 12px; font-size:19px; }
+    p { margin:8px 0; } .sub,footer { color:var(--muted); }
+    section { margin-top:18px; padding:24px; border:1px solid var(--line); border-radius:18px; background:rgba(14,29,39,.88); }
+    ul { margin:8px 0 0; padding-left:22px; } li+li { margin-top:8px; }
+    a { color:var(--cyan); } .button { display:inline-block; margin-top:12px; padding:10px 16px; border-radius:999px; background:var(--cyan); color:#06221f; font-weight:700; text-decoration:none; }
+    footer { margin-top:30px; text-align:center; font-size:13px; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>光域充电 · 支持与帮助</h1>
+    <p class="sub">适用于 iOS 版光域充电。全部充电功能均可免登录使用，无广告、订阅或应用内购买。</p>
+  </header>
+
+  <section>
+    <h2>常见问题</h2>
+    <ul>
+      <li><strong>插电后为什么没有自动出现？</strong>iOS 不允许已关闭的第三方 App 因插电自动启动。请先打开 App；前台运行时才能检测充电状态并展示特效。</li>
+      <li><strong>能替换系统锁屏充电动画吗？</strong>不能。特效仅在光域充电 App 内全屏展示，不会修改系统锁屏、充电速度、电池健康或系统充电策略。</li>
+      <li><strong>预计提醒为什么与实际电量不同？</strong>提醒根据当前状态和估算时间生成。iOS 不向普通 App 提供后台持续监测电量阈值的能力。</li>
+      <li><strong>为什么请求通知权限？</strong>只有在您主动创建预计检查提醒时才会请求；拒绝不会影响主题和全屏特效。</li>
+      <li><strong>需要登录或提供手机号吗？</strong>不需要。当前版本为纯游客模式，不注册账号，不接入手机号或运营商一键认证 SDK，全部功能可直接使用。</li>
+      <li><strong>如何退出登录或删除账号？</strong>当前版本不会创建账号，因此没有需要退出或删除的服务器账号。若要删除本地数据，请清除充电记录并卸载 App。</li>
+      <li><strong>如何删除本地记录？</strong>可在 App 的“充电记录”页面清除记录；卸载 App 会移除其本地设置和记录。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>问题反馈</h2>
+    <p>如遇崩溃、显示异常或功能问题，请通过公开支持工单联系我们，并尽量附上 iPhone 型号、iOS 版本、问题步骤和截图。请勿提交手机号、账号令牌或其他敏感信息。</p>
+    <a class="button" href="https://github.com/jianjun205/charging-effect-pages/issues/new" rel="noopener">创建支持工单</a>
+    <p class="sub">也可查看现有工单：<a href="https://github.com/jianjun205/charging-effect-pages/issues" rel="noopener">GitHub Issues</a></p>
+  </section>
+
+  <section>
+    <h2>隐私与版本</h2>
+    <p>隐私政策：<a href="./charging-effect-privacy.html">光域充电隐私政策</a></p>
+    <p class="sub">当前支持文档版本：1.1 · 更新日期：2026 年 9 月 4 日</p>
+  </section>
+
+  <footer>© 2026 JJ · 光域充电</footer>
+</main>
+</body>
+</html>
