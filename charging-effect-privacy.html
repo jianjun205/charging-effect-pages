@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="光域充电 iOS App 隐私政策。">
+  <title>光域充电｜隐私政策</title>
+  <style>
+    :root { color-scheme:dark; --bg:#071118; --card:#0e1d27; --text:#edfaff; --muted:#a5bdc8; --cyan:#39f4d2; --line:#1d3d48; --warn:#ffe38a; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif; background:radial-gradient(circle at 15% 0,#16304d 0,transparent 36%),var(--bg); color:var(--text); line-height:1.78; }
+    main { width:min(800px,calc(100% - 32px)); margin:0 auto; padding:52px 0 72px; }
+    header,section { border:1px solid var(--line); background:rgba(14,29,39,.9); border-radius:20px; }
+    header { padding:32px; } section { margin-top:18px; padding:24px; }
+    h1 { margin:0 0 8px; font-size:30px; } h2 { margin:0 0 10px; font-size:19px; }
+    p { margin:8px 0; } ul { margin:8px 0 0; padding-left:22px; } li+li { margin-top:7px; }
+    a { color:var(--cyan); } .sub { color:var(--muted); } .notice { color:var(--warn); }
+    footer { margin-top:30px; text-align:center; color:var(--muted); font-size:13px; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>光域充电隐私政策</h1>
+    <p class="sub">生效及更新日期：2026 年 9 月 4 日 · 开发者：JJ</p>
+    <p>本政策说明光域充电 iOS App 如何处理信息。我们不出售个人数据，不使用第三方广告，也不进行跨 App 或跨网站追踪。</p>
+  </header>
+
+  <section>
+    <h2>1. 保存在设备上的数据</h2>
+    <p>以下内容用于提供 App 核心功能，并通过 iOS UserDefaults 等系统存储保存在您的设备上：</p>
+    <ul>
+      <li>主题选择、收藏、展示偏好和提示语设置；</li>
+      <li>充电会话时间、电量变化及本地历史记录；</li>
+      <li>您创建的预计检查提醒配置。</li>
+    </ul>
+    <p>您可以在 App 内清除充电记录；卸载 App 会删除其本地沙盒中的设置和记录。</p>
+  </section>
+
+  <section>
+    <h2>2. 电池状态、通知和语音</h2>
+    <ul>
+      <li>App 在设备端读取 iOS 提供的电量与充电状态，用于更新界面、估算提醒和记录会话，不读取电池序列号或精确位置。</li>
+      <li>仅当您主动创建提醒时请求通知权限。通知用于在预计时间提示您查看电量。</li>
+      <li>提示语音由 iOS 系统语音合成，不录音，也不申请麦克风权限。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. 账号、手机号与运营商 SDK</h2>
+    <p>当前版本不提供注册或登录，不创建用户账号，所有功能均可由游客直接使用。因此 App 不会收集、保存或上传手机号、运营商信息、登录凭据或账号资料。</p>
+    <p>当前构建不包含 CoreAuthKit、手机号一键登录、运营商认证 SDK、账号 WebView 或相关远程启动功能。</p>
+  </section>
+
+  <section>
+    <h2>4. 数据共享、保存期限与删除方式</h2>
+    <p>App 不上传或向第三方共享手机号、账号资料、主题偏好、充电记录或电池状态，也不使用第三方广告或分析服务。</p>
+    <p>主题偏好、提示语和充电记录仅保存在设备的 App 沙盒中，保存至您在 App 内清除相应记录或卸载 App 为止。您可在“充电记录”页面删除历史记录；卸载 App 会删除其余本地设置和数据。由于当前版本不创建账号，因此没有服务器端账号或账号数据需要注销或删除。</p>
+  </section>
+
+  <section>
+    <h2>5. 儿童隐私与您的选择</h2>
+    <p>本 App 不以儿童为主要目标，也不故意收集儿童个人信息。您可以拒绝通知权限、清除本地记录或卸载 App。如对本地数据删除方式有疑问，请通过下方渠道联系我们。</p>
+  </section>
+
+  <section>
+    <h2>6. 政策更新与联系我们</h2>
+    <p>功能或数据处理方式发生重大变化时，我们会更新本页面日期，并在适当情况下通过 App 更新说明告知。</p>
+    <p>隐私或数据请求：<a href="https://github.com/jianjun205/charging-effect-pages/issues/new" rel="noopener">创建支持工单</a>。提交时请勿公开手机号、token 或其他敏感信息。</p>
+    <p>支持页面：<a href="./charging-effect-support.html">光域充电支持与帮助</a></p>
+  </section>
+
+  <footer>© 2026 JJ · 光域充电</footer>
+</main>
+</body>
+</html>
